@@ -25,7 +25,7 @@ jobs:
           repository: "mrrfv/cloudflare-gateway-pihole-scripts"
           ref: "v1"
 
-      - name: Install Node.js
+      - name: Install Node.js 
         uses: actions/setup-node@v4
         with:
           node-version-file: ".node-version"
